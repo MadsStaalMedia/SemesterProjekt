@@ -51,7 +51,7 @@ body {
     vertical-align: middle;
     width: 120px;
     height: 30px;
-    padding: 10px 30px 30px 30px;
+    padding: 10px;
     background-color: rgb(91, 65, 114);
     border-width: 2px;
     border-style: solid;
@@ -66,15 +66,19 @@ body {
     }
   }
 
-.nav__button {
+.nav a {
     transition-property: all;
     transition-duration: 0.5s;
 }
 
-.nav__button:hover {
+.nav a:hover {
     background-color: rgb(142, 102, 176);
     width: 130px;
     height: 32px;
+}
+
+.nav a:active {
+    background-color: rgb(155, 102, 176);
 }
 
 .main {
