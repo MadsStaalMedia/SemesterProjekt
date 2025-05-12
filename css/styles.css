@@ -19,11 +19,13 @@ body {
 
 .logo {
     float: left;
+    height: auto;
+    width: 100px;
 }
 
 .header__name {
     position: relative;
-    top: 5px;
+    top: 40px;
     left: 5px;
 }
 
