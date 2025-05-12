@@ -12,12 +12,12 @@ body {
     width: 100%;
     max-width: none;
     margin: auto;
-    padding: 0px;
+    padding-bottom: 5px;
     background-color: rgb(3, 25, 51);
     color: rgb(255, 255, 255);
 }
 
-.logo {
+.header__logo {
     float: left;
     height: auto;
     width: 100px;
@@ -26,17 +26,16 @@ body {
 .header__name {
     position: relative;
     top: 40px;
-    left: 5px;
 }
 
 .nav {
+    position: fixed;
+    top: 0px;
+    right: 5px;
     min-height: 60px;
     height: auto;
     width: 100%;
     max-width: none;
-    position: relative;
-    bottom: 0px;
-    right: 5px;
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;
@@ -119,6 +118,7 @@ body {
 
 .footer {
     position: fixed;
+    left: 0px;
     bottom: 0px;
     min-height: 60px;
     height: auto;
