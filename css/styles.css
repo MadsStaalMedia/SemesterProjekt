@@ -132,7 +132,7 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0px;
     bottom: 0px;
     min-height: 60px;
