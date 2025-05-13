@@ -122,7 +122,13 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     height: auto;
+    max-width: 35%;
     width: auto;
+}
+
+.main__img {
+    height: auto;
+    max-width: 35%;
 }
 
 .footer {
