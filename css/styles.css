@@ -137,7 +137,7 @@ body {
     height: auto;
     width: 100%;
     max-width: none;
-    padding: 0px;
+    padding-top: 30px;
     margin: 0px;
     background-color: rgb(20, 20, 20);
     color: rgb(255, 255, 255);
