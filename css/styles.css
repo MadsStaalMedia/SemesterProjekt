@@ -39,8 +39,8 @@ body {
     right: 5px;
     min-height: 60px;
     height: auto;
-    width: 100%;
-    max-width: none;
+    max-width: 60%;
+    width: auto;
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;
@@ -156,6 +156,8 @@ body {
         flex-direction: column;
         justify-content: flex-end;
         align-content: center;
+        max-width: 100%;
+        width: 100%;
     }
 
     .nav > * {
