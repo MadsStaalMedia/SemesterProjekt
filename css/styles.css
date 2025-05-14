@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(3, 25, 51), rgb(10, 20, 30));
+    background-color: rgb(12, 39, 73);
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .nav a:hover {
-    background-color: rgb(142, 102, 176);
+    background-color: rgb(103, 102, 176);
     width: 130px;
     height: 32px;
 }
@@ -130,7 +130,7 @@ body {
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     left: 0px;
     bottom: 0px;
     min-height: 60px;
