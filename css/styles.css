@@ -2,21 +2,22 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background-color: rgb(94, 179, 202);
-    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom, rgb(9, 75, 153), rgb(3, 25, 51));
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 .header {
-    position: sticky;
+    position: relative;
     top: 0px;
     left: 0px;
-    min-height: 110px;
+    min-height: 95px;
     height: auto;
     width: 100%;
     max-width: none;
     margin: auto;
     padding: 0px;
-    background-color: rgb(3, 25, 51);
+    background-color: rgb(20, 20, 20);
     color: rgb(255, 255, 255);
 }
 
@@ -24,7 +25,7 @@ body {
     float: left;
     margin: 5px;
     height: auto;
-    width: 100px;
+    width: 80px;
 }
 
 .header__name {
@@ -33,7 +34,7 @@ body {
 }
 
 .nav {
-    position: fixed;
+    position: absolute;
     top: 5px;
     right: 5px;
     min-height: 60px;
@@ -55,7 +56,7 @@ body {
     width: 120px;
     height: 30px;
     padding: 10px;
-    background-color: rgb(91, 65, 114);
+    background-color: rgb(45, 46, 90);
     border-width: 2px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
@@ -138,7 +139,7 @@ body {
     max-width: none;
     padding: 0px;
     margin: 0px;
-    background-color: rgb(91, 65, 114);
+    background-color: rgb(20, 20, 20);
     color: rgb(255, 255, 255);
 }
 
