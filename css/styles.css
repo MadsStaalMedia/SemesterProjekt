@@ -123,6 +123,9 @@ body {
     height: auto;
     max-width: 35%;
     width: auto;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
 }
 
 .footer {
