@@ -149,6 +149,19 @@ body {
     .nav {
         position: relative;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
+        align-content: center;
     }
-  }
+
+    .nav > * {
+        width: 100%;
+    }
+
+    .main__p {
+        max-width: 100%;
+    }
+    
+    .main__img {
+        max-width: 100%;
+    }
+}
