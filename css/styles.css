@@ -118,15 +118,30 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     height: auto;
-    max-width: 35%;
+    max-width: 60%;
     width: auto;
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
-.main__img {
+.main__lportrait {
+    float: left;
     height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     max-width: 400px;
-    width: 100%;
+    width: 90%;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+.main__rportrait {
+    float: right;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 400px;
+    width: 90%;
     border-style: double;
     border-width: 5px;
     border-color: rgb(0, 0, 0);
@@ -187,10 +202,16 @@ body {
     }
 
     .main__p {
-        max-width: 100%;
+        max-width: 90%;
     }
 
-    .main__img {
+    .main__lportrait {
+        width: 90%;
         max-width: none;
     }
+
+    .main__rportrait {
+        width: 90%;
+        max-width: none;
+    }    
 }
