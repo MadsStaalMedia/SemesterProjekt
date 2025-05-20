@@ -186,9 +186,7 @@ body {
 }
 
 .animshowcase__box {
-    position: relative;
-    top: 10px;
-    left: 10%;
+    margin: auto;
     width: 60px;
     height: 60px;
     background-color: rgb(160, 25, 20);
@@ -203,7 +201,7 @@ body {
 }
 
 .animshowcase__box:hover {
-    transform: translateX(100vh);
+    transform: scaleX(200%);
 }
 
 @media (max-width: 800px) {
