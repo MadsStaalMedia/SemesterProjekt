@@ -236,7 +236,7 @@ body {
     }
 
     .main {
-        min-height: none;
+        min-height: fit-content;
     }
 
     .main__p {
