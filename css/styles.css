@@ -147,6 +147,15 @@ body {
     border-color: rgb(0, 0, 0);
 }
 
+.main__banner {
+    height: auto;
+    max-width: 1000px;
+    width: 90%;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
 
 .footer {
     position: static;
